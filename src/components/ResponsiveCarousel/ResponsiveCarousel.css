@@ -1,0 +1,30 @@
+.carousel .container {
+  position: relative;
+}
+
+.carousel .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.carousel .container img {
+  width: 100%;
+  height: auto;
+}
+.carousel {
+  height: 100vh;
+}
+.carousel .words {
+  color: white;
+  font-size: 50px;
+}
+.carousel .words .title {
+  color: black;
+  background-color: white;
+}
+.carousel .words .title span{
+    color:orange;
+}

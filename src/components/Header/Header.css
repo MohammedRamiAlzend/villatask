@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid 2px rgb(235, 235, 237);;
+    height: 50px;
+}
+
+.header .firstpart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+    width: 50%;
+    align-items: center;
+}
+.header .firstpart .group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:6px;
+}
+.header .firstpart .group .icon{
+    color:rgb(255, 119, 0)
+}
+.header .firstpart .horizontal-divider{
+    width: 2px;
+    align-self: center;
+    height: 70%;
+    background: rgb(235, 235, 237);
+}
+.header .secondpart{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    color: grey;
+    margin-right: 4%;
+}
+@media (max-width:992px) {
+    .header{
+        display: none;
+    }
+}

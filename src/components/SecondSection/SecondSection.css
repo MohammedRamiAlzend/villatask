@@ -1,0 +1,115 @@
+.secondsection {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 180vh;
+  }
+  .secondsection .image
+  {
+    width: 100%;
+    height: 90vh;
+    background:url('../../assets/images/video-bg.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+  .secondsection .image h6{
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top:50px;
+  }
+  .secondsection .image h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 56px;
+  }
+  .secondsection .video-frame{
+    width: 75%;
+    margin: 0 auto;
+  }
+  .secondsection .video-frame  .container {
+    position: relative;
+    margin-top: -240px;
+  }
+  
+  .secondsection .video-frame .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+  }
+  
+  .secondsection .video-frame  img { 
+    width: 100%;
+    border-radius: 50px;
+  }
+  .secondsection .video-frame .center .circle{
+    width:75px;
+    height:75px;
+    display: flex;
+    justify-content: center;
+    background:#ff6f019f;
+    border-radius:100%;
+    align-items: center;
+  }
+  .secondsection .video-frame .center .circle2{
+    width: 50px;;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background:#fff;
+    border-radius:100%;
+    align-items: center;
+  }
+
+  .secondsection .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .secondsection .cards .card{
+   margin-top: 100px;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 25%;
+    background-color: #ff6f0138;
+    height: 100px;
+    border-radius: 20px;
+    align-items: center;
+    padding: 40px;
+  }
+  .secondsection .cards .card h1{
+    font-weight:bold;
+    color: #f35525;
+    font-size: 40px;
+  }
+  .secondsection .cards .card h2{
+    text-align: left;
+    font-size: 16px;
+    color: #1e1e1e;
+    font-weight: 600;
+    line-height: 28px;
+  }
+  .secondsection .cards .card .small-circle{
+    width: 50px;
+    height:50px;
+    background-color:#f35525 ;
+    border-radius: 100%;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+  }

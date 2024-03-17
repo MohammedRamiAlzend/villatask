@@ -1,0 +1,77 @@
+.card{
+    width: 30%;
+    background-color: #ededed;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.card .img{
+    border-radius: 20px;
+}
+.card .category-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.card .category-price h1{
+    font-size: 20px;
+    color: #f35525;
+    font-weight: bold;
+
+}
+.card .category-price .category{
+    background-color: #ee626b3d;
+    padding: 10px;
+    border-radius: 15px;
+}
+.card .title{
+    font-size: 20px;
+    text-align: center;
+    color: #1e1e1e;
+    font-weight: 700;
+}
+.card  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.card  .details .line{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.card  .details .line h2 span{
+    font-weight: bold;
+}
+
+.card  .divider {
+    width: 80%;
+    height: 2px;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, 0.115);
+}
+.card .button{
+    display: inline-block;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 30px;
+    border-radius: 25px;
+    transition: all .3s;
+    text-align: center;
+}
+.card .button:hover{
+    background-color: #f35525;
+
+}
